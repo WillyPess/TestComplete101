@@ -1,0 +1,11 @@
+﻿function test2()
+{
+  let NovaOrdem = Aliases.Orders.MainForm
+  formulario.MainMenu.Click("Orders|Delete Order");
+  
+  
+//  formulario.Keys("^[Ins]");
+
+
+   Delay(2000);
+}

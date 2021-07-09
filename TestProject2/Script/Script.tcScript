@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Objects">
+			<folder name="Ordens">
+				<child name="NovaOrdemScreen" key="{BC0BCB70-1977-4828-A514-6BDB6B28C934}" path="NovaOrdemScreen.js" />
+			</folder>
+			<child name="HomeScreen" key="{E4114C2A-FD91-4E97-AE93-9A6B79C89741}" path="HomeScreen.js" />
+		</folder>
+		<folder name="Tests">
+			<child name="InsereNovaOrdem" key="{7AA3E44F-866A-445A-836C-80789DDB00D7}" path="InsereNovaOrdem.js" />
+			<child name="AbrirApp" key="{0BE030DE-1DEE-42AE-95EA-43C7792172DF}" path="AbrirApp.js" />
+			<child name="FecharApp" key="{9B06B295-24A8-4064-973C-4699BB31ED2E}" path="FecharApp.js" />
+			<child name="Test" key="{EFB14C89-CBBB-4991-B03C-C169BDF64AAB}" path="Test.js" />
+		</folder>
+	</children>
+</Root>

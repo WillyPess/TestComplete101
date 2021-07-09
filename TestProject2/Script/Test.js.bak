@@ -1,0 +1,20 @@
+﻿function Test1()
+{
+  let orders = Aliases.Orders;
+  orders.MainForm.MainMenu.Click("Orders|New order...");
+  let orderForm = orders.OrderForm;
+  let groupBox = orderForm.Group;
+  groupBox.Date.wDate = "2021-10-05";
+  groupBox.Click(240, 128);
+  orderForm.ButtonOK.ClickButton();
+  orders.dlgWarning.btnOK.ClickButton();
+}
+
+function Test2()
+{
+  
+  var campoData = Sys.Process("Orders").WinFormsObject("OrderForm").WinFormsObject("Group").WinFormsObject("Date");
+  campoData.Keys("2021-10-05")
+
+}
+

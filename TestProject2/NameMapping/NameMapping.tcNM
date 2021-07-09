@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B6515501-8509-4B38-BA8E-63C9BD491F81}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{35480ABF-6F8C-4F81-8A93-70F348FD376F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{B9665BE3-A00C-4441-B498-558398730E76}">
+								<Image FileName="-1511143795" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{2948D4D5-F9B1-431B-856C-FA08D39F1285}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="OrdersView" Key="{F0963957-DCAA-49C3-99D4-E7BBFF1590A4}">
+										<Image FileName="-1511143795" Left="8" Top="79" Right="600" Bottom="378" />
+										<TypeInfo Item0="{1D06E125-6D3A-4ED4-9D0E-8A6FAD38640F}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="OrdersView" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OrderForm" Key="{482C24E1-9295-4220-9B07-F3BA120E8129}">
+								<Image FileName="-1571342643" Left="0" Top="0" Right="488" Bottom="478" />
+								<TypeInfo Item0="{2948D4D5-F9B1-431B-856C-FA08D39F1285}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{5CAF93B6-3383-47E7-A789-E9571493B96C}">
+										<Image FileName="-370590011" Left="11" Top="34" Right="475" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Price" Key="{207637CC-1365-49ED-8761-D2EFF94D467A}">
+												<Image FileName="-370590011" Left="235" Top="82" Right="315" Bottom="102" />
+												<TypeInfo Item0="{C2FE2E54-F6D0-401E-8FE1-58D2AD595169}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Price" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Quantity" Key="{AB60EEBB-256D-466E-B5BD-8DB67004B7B6}">
+												<Image FileName="-1361431794" Left="75" Top="82" Right="131" Bottom="102" />
+												<TypeInfo Item0="{73677E39-D3E0-4C9F-A58E-C5D7D91C496F}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Quantity" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="UpDownEdit" Key="{28B0364F-F9D8-4579-B268-FB3820117961}">
+														<Image FileName="343160908" Left="77" Top="84" Right="113" Bottom="100" />
+														<TypeInfo Item0="{C2FE2E54-F6D0-401E-8FE1-58D2AD595169}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="System.Windows.Forms.UpDownBase+UpDownEdit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Discount" Key="{73BFB4A2-EA02-44D2-9D3D-82E006508971}">
+												<Image FileName="-1090224280" Left="387" Top="82" Right="467" Bottom="102" />
+												<TypeInfo Item0="{C2FE2E54-F6D0-401E-8FE1-58D2AD595169}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Discount" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="groupBox1" Key="{F889458B-F1E0-49EA-8CB5-10315FC6CA12}">
+												<Image FileName="-464463088" Left="323" Top="106" Right="467" Bottom="154" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="groupBox1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Total" Key="{7F618260-0487-41BC-AF61-B6041FBB56F1}">
+														<Image FileName="-464463088" Left="387" Top="122" Right="459" Bottom="142" />
+														<TypeInfo Item0="{C2FE2E54-F6D0-401E-8FE1-58D2AD595169}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="Total" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Date" Key="{FFF5AE38-48E6-4CD7-BF42-7CC6242CDA65}">
+												<Image FileName="-130401897" Left="115" Top="162" Right="243" Bottom="182" />
+												<TypeInfo Item0="{9572F28A-A41B-4D4C-978D-4B71E059056A}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Date" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{513555C5-9E0C-4170-B50C-F5BA055636E4}">
+										<Image FileName="-1040986077" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{B5A77D34-9BEA-4D78-8616-3EF29AAE30AE}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgWarning" Key="{D681F52E-1566-4CF8-A492-BC934ED41AC9}">
+								<Image FileName="-66207867" Left="0" Top="0" Right="302" Bottom="149" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Warning" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{DCF2D4CB-4E3C-49E7-A954-6F2E7916E0D8}">
+										<Image FileName="-66207867" Left="209" Top="114" Right="284" Bottom="137" />
+										<TypeInfo Item0="{B5A77D34-9BEA-4D78-8616-3EF29AAE30AE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{35480ABF-6F8C-4F81-8A93-70F348FD376F}">
+			<Child Name="MainForm" Owner="{B9665BE3-A00C-4441-B498-558398730E76}">
+				<Child Name="OrdersView" Owner="{F0963957-DCAA-49C3-99D4-E7BBFF1590A4}" />
+			</Child>
+			<Child Name="OrderForm" Owner="{482C24E1-9295-4220-9B07-F3BA120E8129}">
+				<Child Name="Group" Owner="{5CAF93B6-3383-47E7-A789-E9571493B96C}">
+					<Child Name="Price" Owner="{207637CC-1365-49ED-8761-D2EFF94D467A}" />
+					<Child Name="Quantity" Owner="{AB60EEBB-256D-466E-B5BD-8DB67004B7B6}">
+						<Child Name="UpDownEdit" Owner="{28B0364F-F9D8-4579-B268-FB3820117961}" />
+					</Child>
+					<Child Name="Discount" Owner="{73BFB4A2-EA02-44D2-9D3D-82E006508971}" />
+					<Child Name="groupBox1" Owner="{F889458B-F1E0-49EA-8CB5-10315FC6CA12}">
+						<Child Name="Total" Owner="{7F618260-0487-41BC-AF61-B6041FBB56F1}" />
+					</Child>
+					<Child Name="Date" Owner="{FFF5AE38-48E6-4CD7-BF42-7CC6242CDA65}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{513555C5-9E0C-4170-B50C-F5BA055636E4}" />
+			</Child>
+			<Child Name="dlgWarning" Owner="{D681F52E-1566-4CF8-A492-BC934ED41AC9}">
+				<Child Name="btnOK" Owner="{DCF2D4CB-4E3C-49E7-A954-6F2E7916E0D8}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

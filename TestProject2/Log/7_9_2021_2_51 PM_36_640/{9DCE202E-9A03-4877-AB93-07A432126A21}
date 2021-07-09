@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="44386.6191742593"/>
+				<Prp name="details" type="S" value="{62ACD8BF-F867-40EA-A15E-AD57FC6C9D4A}"/>
+				<Prp name="end time" type="D" value="44386.6191783565"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="name" type="S" value="AbrirApp [Script\AbrirApp - AbrirApp]"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="44386.6191784028"/>
+				<Prp name="details" type="S" value="{9518372A-57B4-41A0-8514-439B66BAD3DE}"/>
+				<Prp name="end time" type="D" value="44386.6192156018"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="InsereNovaOrdem [Script\InsereNovaOrdem - InsereNovaOrdem]"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="44386.6192156481"/>
+				<Prp name="details" type="S" value="{2A7287DE-F0D5-4F91-8E4B-CBEBF29AD1D3}"/>
+				<Prp name="end time" type="D" value="44386.6192159144"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="FecharApp [Script\FecharApp - FecharApp]"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

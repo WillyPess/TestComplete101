@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="22"/>
+						<Prp name="starttime" type="D" value="44386.6195953704"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEYAMQAzAEQAQQA0ADcALQBFAEUAQwBDAC0ANAA4ADMAMgAtADgANQA1AEYALQAzADgANQA2ADEAQgBGADUAMQAzADMAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="FecharApp"/>
+						<Prp name="duration" type="I" value="22"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="3209"/>
+						<Prp name="starttime" type="D" value="44386.6195581829"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADcAOQBFADQAMAA0ADkALQAxADIAMAA4AC0ANABCAEEANgAtAEEAOABFAEMALQAwAEIAQwAyADgAQQBGADQARQBEADAAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="InsereNovaOrdem"/>
+						<Prp name="duration" type="I" value="3209"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="There is (are) 1 running instance(s) of &quot;C:\Users\Public\Documents\TestComplete 14 Samples\Desktop\Orders\C#\bin\Release\Orders.exe&quot;. New instances will not be launched."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="356"/>
+						<Prp name="starttime" type="D" value="44386.6195540394"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADIARQBGADIARQAzAEEALQA1AEIAQQAyAC0ANAA2ADIAMAAtADgAMQBBADAALQA2ADkAMQA1ADcAOQA5ADgAQgAyADgAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="AbrirApp"/>
+						<Prp name="duration" type="I" value="356"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="1"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44386.6195540394"/>
+				<Prp name="name" type="S" value="TestProject2"/>
+				<Prp name="duration" type="I" value="3587"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="44386.6195987037"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TestProject2"/>
+		<Prp name="host" type="S" value="DESKTOP-KGUFEI2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Willy"/>
+		<Prp name="starttime" type="D" value="44386.6195539005"/>
+		<Prp name="key" type="S" value="{EFA872BA-9B0D-4ABA-84F6-1E11E2023E02}"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="name" type="S" value="TestProject2"/>
+	</Node>
+</Nodes>
