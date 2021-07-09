@@ -33,6 +33,8 @@
     campoData.wdate = "2021-10-05";
   }
   
+// OCR
+
   
     Delay(5000);
 }
