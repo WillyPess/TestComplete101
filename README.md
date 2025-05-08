@@ -101,12 +101,3 @@ TestComplete101/
 * [x] Use property checkpoints to assert behavior
 
 ---
-
-> 💡 This is a general-purpose TestComplete starter project. Feel free to fork and adapt it for your own Windows applications.
-
-```
-
----
-
-Se quiser, posso também criar um exemplo genérico de `users.csv` e uma estrutura básica para uma aplicação fake de login. Deseja isso para enriquecer o projeto?
-```
